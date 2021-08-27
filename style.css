@@ -1,0 +1,585 @@
+html, body {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+}
+
+.block_grey {
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+/*--------------------------------------------*/
+button.social_btn {
+    border-radius: 5px;
+    font-size: 14px;
+    background: #9f9f9f;
+    padding: 0 20px 0 0;
+    color: #ffffff;
+}
+
+button.social_btn span {
+    min-width: 30px;
+    padding: 8px;
+    display: inline-block;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.social_btn.facebook {
+    background: #324a7e;
+}
+
+.social_btn.twitter {
+    background: #0099d3;
+}
+
+.social_btn.google {
+    background: #c34434;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/*white blck*/
+.white_block {
+    background: #ffffff;
+    /*box-shadow: 0 0 1px 0 #000;*/
+    /*border-radius: 0;*/
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+/*---------------------*/
+/*---------POST_LABEL-------------*/
+.post_label {
+    position: absolute;
+    /*t0+l0*/
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 10px;
+    padding: 12px 30px 12px 20px;
+    /*Перемістили лейбочку на слой вище картинки */
+    z-index: 1;
+}
+
+/*----------------------------------*/
+/*-------POST_DATA---------------*/
+.date {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+header .header_top {
+    background: #f9f9f9;
+    padding: 30px 0 26px 0;
+}
+
+header .header_bottom {
+    background: #f5f5f5;
+    padding: 30px 0 26px 0;
+}
+header .header_search input{
+    display: none;
+}
+/*------------------------------------------------------------*/
+.content {
+    background: url("img/home_top.png");
+}
+
+.content .home_top {
+    padding: 155px 0 26px 0;
+    color: #ffffff;
+}
+
+.content .home_top .text {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.content .home_top {
+    padding-bottom: 80px;
+}
+
+/*---------------------------------------*/
+.posts {
+    padding-top: 60px;
+    background: #fafafa;
+
+}
+
+.post {
+    background: #ffffff;
+    box-shadow: 0 0 7px -3px #000;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.post .post_label {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.post .date {
+    margin-bottom: 10px;
+
+}
+
+.post h3 {
+    color: #3e3e3e;
+    margin-bottom: 18px;
+}
+
+.post p {
+    color: #8c8c8c;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.post .post_text {
+    padding: 32px 40px 0 15px;
+}
+
+/*    padding-left: 15px;*/
+/*    padding-right: 40px;*/
+/*}*/
+
+.post button {
+    border-radius: 5px;
+    background: #ffc300;
+    color: #ffffff;
+    /*border: 2px solid #ffc300;*/
+    margin-bottom: 30px;
+    padding: 15px 35px;
+}
+
+.post .post_img {
+    position: relative;
+    min-height: 245px;
+}
+
+/*todo: Вирівнювання картинки по центру*/
+.post .post_img img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    min-height: 100%;
+    max-width: initial;
+}
+
+.post.post_yellow {
+    background: #ffc300;
+    color: #fff;
+}
+
+.post.post_yellow h2 {
+    padding: 33px 40px 60px 15px;
+}
+
+.post.post_yellow p {
+    color: #fff;
+}
+
+.post.post_yellow button {
+    background: #3e3e3e;
+    margin-bottom: 30px;
+    padding: 15px 35px;
+    box-shadow: 0 0 4px 0 #212529;
+}
+
+/*-----------------------------------------------*/
+.content_bottom {
+    background: url("img/home_bottom.png");
+}
+
+.content_bottom .home_bottom {
+    padding: 220px 0 0 0;
+    color: #ffffff;
+}
+
+.content_bottom .home_bottom .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.content_bottom .home_bottom h2 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.content_bottom .home_bottom {
+    padding-bottom: 160px;
+}
+
+/*-----------------------------------------------------------------------*/
+.comments {
+    padding-top: 115px;
+    background: #fafafa;
+}
+
+/*розширили клас білий_блок*/
+.comment {
+    box-shadow: 0 0 7px -3px #000;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.comment p {
+    color: #ffc300;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 85px 70px 30px 85px;
+}
+
+.comment h5 {
+    color: #3e3e3e;
+    font-size: 14px;
+    padding: 0 0 70px 0;
+}
+
+.comment .comment_label {
+    position: absolute;
+    /*t0+l0*/
+    top: 0;
+    left: 0;
+    background: #e5e5e5;
+    color: #919191;
+    line-height: 10px;
+    padding: 12px 30px 12px 20px;
+    /*Перемістили лейбочку на слой вище картинки */
+    z-index: 1;
+}
+
+.comment i {
+    padding-right: 5px;
+}
+
+.comments .button_comment {
+    font-size: 16px;
+    color: #9f9f9f;
+    background: #e5e5e5;
+    padding: 19px 32px 15px 26px;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+/*------------------------------------*/
+/*-----------ARCHIVE-----------------*/
+.content_archive {
+    background: url("img/2Blog_top.png") no-repeat center;
+    background-size: cover;
+}
+
+.content_archive .home_top {
+    color: #ffffff;
+    padding-top: 205px;
+    padding-bottom: 100px;
+}
+
+.content_archive .home_top h1 {
+    padding-bottom: 50px;
+}
+
+.posts_archive {
+    padding-top: 60px;
+    background: #fafafa;
+}
+
+.posts_archive .social_btn {
+    margin-bottom: 60px;
+}
+
+/*.posts_archive .date {*/
+/*    color: #8c8c8c;*/
+/*    font-size: 14px;*/
+/*    padding-bottom: 10px;*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+.posts_archive h3 {
+    color: #3e3e3e;
+    margin-bottom: 18px;
+}
+
+/*.posts_archive */
+.block_grey p {
+    color: #8c8c8c;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*.posts_archive */
+.block_grey .post_text {
+    padding: 30px 45px 26px 35px;
+}
+
+/*.posts_archive */
+.block_grey {
+    margin-bottom: 30px;
+}
+
+/*.posts_archive */
+.right li {
+    padding: 0 15px;
+}
+
+/*.posts_archive */
+.right a, .left {
+    color: #8c8c8c;
+}
+
+/*.posts_archive */
+.right a.active {
+    color: #ffc300;
+}
+
+/*.posts_archive */
+.right a.disabled {
+    color: #c7c5bb;
+}
+
+/*-----------ARCHIVE-----------------*/
+/*------------------------------------*/
+/*-----------------------------------*/
+/*-----------bread words-----------------*/
+.content_bread_words {
+    background: url("img/3Blog_top.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/*.content_bread_words*/
+.home_top {
+    color: #ffffff;
+    padding-top: 205px;
+    padding-bottom: 100px;
+}
+
+.posts_bread_words {
+    padding-top: 50px;
+}
+
+.posts_bread_words .post_text_bread_word p {
+    padding: 85px 115px 30px 135px;
+}
+
+.posts_bread_words .social_btn {
+    margin-bottom: 50px;
+}
+
+/*-----------bread words-----------------*/
+/*-----------------------------------*/
+/*-----------SINGLE-----------------*/
+.content_single {
+    background: url("img/4Blog_top.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/*.posts_single .comment_single {*/
+/*    background: #ffffff;*/
+/*    box-shadow: 0 0 1px 0 #000;*/
+/*    border-radius: 0;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*    margin-bottom: 27px;*/
+/*    text-align: center;*/
+/*}*/
+
+.posts_single .white_block {
+    box-shadow: 0 0 1px 0 #000;
+}
+
+.posts_single .post_text {
+    padding: 30px 55px 35px 30px;
+}
+
+.posts_single .post_text:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.posts_single .comment_single .post_text p {
+    margin-bottom: 25px;
+}
+
+.posts_single {
+    padding-top: 50px;
+    background: #fafafa;
+}
+
+.posts_single p {
+    color: #3e3e3e;
+    font-size: 16px;
+    text-align: left;
+}
+
+.quote {
+    border-left: solid 7px #ffc300;
+    margin-left: 20px;
+    padding-left: 7px;
+}
+
+p.quote {
+    font-size: 28px;
+}
+
+.posts_single .buttons .social_btn {
+    margin-right: 10px;
+}
+
+.posts_single .buttons {
+    padding-bottom: 10px;
+}
+
+.posts_single .post_text .paragraph {
+    padding: 10px;
+}
+
+.posts_single .post_text .paragraph p {
+    margin-bottom: 10px;
+    padding: 0;
+    color: #cccccc;
+}
+
+.posts_single .posts_single_name_col {
+    color: #828282;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.posts_single .posts_single_text_col {
+    color: #3e3e3e;
+}
+
+.posts_single .col-8 {
+    margin-top: -120px;
+}
+
+.posts_single .post_link {
+    display: inline-block;
+    width: 100%;
+}
+
+/*-----------SINGLE-----------------*/
+/*-----------------------------------*/
+/*------------Bread links--------------*/
+.content_bread_links {
+    background: url("img/home_bottom.png") no-repeat center;
+    background-size: cover;
+}
+
+.posts_bread_links .post_label {
+    background: #666666;
+}
+
+.posts_bread_links .container {
+    padding: 60px;
+}
+
+.posts_bread_links .date {
+    color: #cbcbcb;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.posts_bread_links h3 {
+    margin-bottom: 0;
+}
+
+/*------------Bread links--------------*/
+/*--------------------------------------*/
+/*------------SEARCH--------------*/
+
+.content_archive.top {
+    background: url("img/home_top.png") no-repeat center;
+    background-size: cover;
+}
+
+/*------------SEARCH--------------*/
+/*--------------------------------------*/
+/*-------------NO_RESULTS---------------*/
+.post.post_yellow.no_results {
+    background: #ffc300;
+    color: #fff;
+    border-radius: 0;
+}
+
+.post.post_yellow.no_results p {
+    margin-bottom: 15px;
+}
+
+.post .post_text.no_results {
+    padding: 10px 10px 0 15px;
+}
+
+/*-------------NO_RESULTS---------------*/
+/*--------------------------------------*/
+footer {
+    background: #fff;
+    padding: 45px 0;
+}
+
+footer .container p {
+    color: #3e3e3e;
+    margin-bottom: 0;
+
+}
+
+footer .container span {
+    font-weight: normal;
+    color: #d6d6d6;
+}
+
+footer .footer_list {
+    color: #d6d6d6;
+    padding-left: 10px;
+}
+
+footer .footer_list li:not(:last-child)::after {
+    content: "/";
+    padding: 5px;
+}
+
+/*footer {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
